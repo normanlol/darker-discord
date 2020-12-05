@@ -1,0 +1,114 @@
+/*//META{"name":"DarkerDiscord","description":"A simple recolor of Discord without any changes in UI.","author":"normanlol","version":"1.0.0"}*//**/
+
+.theme-dark {
+    --header-primary: #fff;
+    --header-secondary: #b9bbbe;
+    --text-normal: white; 
+    --text-muted: #72767d; 
+    --text-link: #00fff2;
+    --channels-default: #8e9297;
+    --interactive-normal: #b9bbbe; 
+    --interactive-hover: #dcddde; 
+    --interactive-active: #fff; 
+    --interactive-muted: #4f545c;
+    --background-primary: #161616; 
+    --background-secondary: #0c0c0c; 
+    --background-tertiary: black;
+    --background-accent: black;
+    --background-floating: black;
+    --background-mobile-header: black;
+    --background-modifier-hover: #0E0E0E;
+    --background-modifier-active: #0E0E0E; 
+    --background-modifier-selected: #0E0E0E;
+    --background-modifier-accent: #000;
+    --elevation-low: 0;
+    --elevation-high: 0;
+    --logo-primary: #000;
+    --guild-header-text-shadow: 0 1px 1px rgba(0, 0, 0, 0.4);
+    --channeltextarea-background: black;
+    --activity-card-background: black;
+    --deprecated-panel-background: black;
+    --deprecated-card-bg: black;
+    --deprecated-card-editable-bg: black;
+    --deprecated-store-bg: black;
+    --deprecated-quickswitcher-input-background: black;
+    --deprecated-quickswitcher-input-placeholder: hsla(0, 0%, 100%, 0.3);
+    --deprecated-text-input-bg: black;
+    --deprecated-text-input-border: black;
+    --deprecated-text-input-border-hover: black;
+    --deprecated-text-input-border-disabled: black;
+    --deprecated-text-input-prefix: black;
+}
+
+div, img {
+	image-rendering: optimizeSpeed !important;
+}
+
+.autocomplete-1vrmpx,
+.theme-dark .searchHeader-1l-wpR, .theme-dark .channelSeparator-1X1FuH .channelName-1QajIf, .theme-dark .searchResultsWrap-2DKFzt, .theme-dark .searchResult-3pzFAB .hit-NLlWXA,
+.friendsTableHeader-32yE7d, 
+.theme-dark .bodyInner-245q0L, .theme-dark .footer-1fjuF6, .theme-dark .quickMessage-1yeL4E,
+.header-2BwW8b, .headerPlaying-j0WQBV, .headerStreaming-2FjmGz,
+.topSectionPlaying-1J5E4n, .topSectionSpotify-1lI0-P,
+.theme-dark .header-ykumBX, .theme-dark .messagesPopout-24nkyi, .theme-dark .messageGroupWrapper-o-Zw7G, .theme-dark .hasMoreButton-1MELpI, .theme-dark .footer-1kmXd4,
+.theme-dark .attachment-33OFj0,
+.theme-dark .modal-yWgWj-, .theme-dark .footer-3rDWdC,
+.theme-dark .container-3ayLPN,
+.theme-dark .uploadModal-2ifh8j, .theme-dark .footer-3mqk7D,
+.theme-dark .wrapperAudio-1jDe0Q,
+.theme-dark .keyboardShortcutsModal-3piNz7,
+.video-1FfuMD,
+.theme-dark .container-2x5lvQ .header-2C89wJ, .theme-dark .container-2x5lvQ section,
+.theme-dark .players-1zg2l8, .theme-dark .footer-3J5oP4,
+.theme-dark .popoutList-T9CKZQ,
+.theme-dark .tierBody-x9kBBp,
+.theme-dark .root-1gCeng,
+.theme-dark .peopleColumn-29fq28,
+.theme-dark .action-1lSjCi,
+.theme-dark .container-1giJp5, .theme-dark .container-3baos1,
+.theme-dark .inset-3sAvek,
+.theme-dark .body-3iLsc4, .theme-dark .footer-1fjuF6 {
+    background-color: var(--background-primary) !important;
+}
+
+.theme-dark .scrollerThemed-2oenus.themedWithTrack-q8E3vB .scroller-2FKFPG::-webkit-scrollbar {
+    width: 5px !important;
+    background: transparent !important;
+}
+
+.theme-dark .scrollerThemed-2oenus.themedWithTrack-q8E3vB .scroller-2FKFPG::-webkit-scrollbar-thumb {
+    visibility: hidden !important;
+}
+
+.theme-dark .scrollerThemed-2oenus.themedWithTrack-q8E3vB .scroller-2FKFPG:hover::-webkit-scrollbar-thumb {
+    visibility: visible !important;
+    border-width: initial !important;
+    border-color: #202225 !important;
+}
+
+.theme-dark .scrollerThemed-2oenus.themedWithTrack-q8E3vB .scroller-2FKFPG::-webkit-scrollbar-track-piece {
+    background-color: transparent !important;
+    border: none !important;
+    border-radius: 0px !important;
+}
+
+[class*=timestamp], .timestampVisibleOnHover-2bQeI4 { 
+    color:white !important;
+}
+
+.roleName-32vpEy {
+    margin-top: 2.5px;
+    overflow: visible;
+}
+
+.newMessagesBar-mujexs {
+	background: black;
+}
+
+.colorGrey-2DXtkV {
+    background:#282828 !important;
+}
+
+.colorBrand-3pXr91:hover {
+    background:rgb(0, 41, 41) !important;
+}
