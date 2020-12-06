@@ -40,10 +40,6 @@
     --deprecated-text-input-prefix: black;
 }
 
-div, img {
-	image-rendering: optimizeSpeed !important;
-}
-
 .autocomplete-1vrmpx,
 .theme-dark .searchHeader-1l-wpR, .theme-dark .channelSeparator-1X1FuH .channelName-1QajIf, .theme-dark .searchResultsWrap-2DKFzt, .theme-dark .searchResult-3pzFAB .hit-NLlWXA,
 .friendsTableHeader-32yE7d, 
